@@ -1,3 +1,13 @@
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
 /*
 * Clearfix: contain floats
 *
@@ -8,6 +18,12 @@
 *    that receive the `clearfix` class.
 * 2. The use of `table` rather than `block` is only necessary if using
 *    `:before` to contain the top-margins of child elements.
+*/
+
+/* Use the following CSS rules to specify these families:
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 */
 
 .clearfix:before,
@@ -23,10 +39,24 @@
 
 body {
 	background-color: #fafafa;
+	margin: 0;
 }
+a {
+	background-color: transparent;
+	text-decoration: none;
+	color: #444;
+}
+img {
+  border-style: none;
+}
+
 .site-logo {
 	float: left;
 	width: 50%;
+}
+.site-logo img {
+	display: block;
+	width: 40%;
 }
 .site-nav {
 	float: right;
@@ -46,6 +76,7 @@ body {
 	margin-left: 0;
 }
 .inline-block-list li {
+	font-family: 'Raleway', sans-serif;
 	display: inline-block;
 	margin: 0 0 0 1.5em;
 	padding: 0;
