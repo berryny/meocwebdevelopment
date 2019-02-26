@@ -49,7 +49,10 @@ a {
 img {
   border-style: none;
 }
-
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
 .site-logo {
 	float: left;
 	width: 45%;
@@ -87,3 +90,6 @@ img {
     margin: 10px 0 0 0;
     padding: 0;
 }
+
+/*	BODY */
+.container { margin: 0 10%; }
