@@ -53,9 +53,14 @@ h1, h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+.nav-container {
+	width: 80%;
+	margin: 0 auto;
+}
 .site-logo {
 	float: left;
-	width: 40%;
+	margin-top: 1%;
+	/* width: 40%; */
 }
 .navbar-logo {
 	display: block;
@@ -84,7 +89,7 @@ h1, h2 {
 .site-nav.inline-block-list {
 	float: right;
 	display: block;
-	width: 60%;
+	/* width: 60%; */
 	text-align: left;
     list-style-type: none;
     margin: 10px 0 0 0;
