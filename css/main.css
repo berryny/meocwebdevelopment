@@ -55,7 +55,7 @@ h1, h2 {
 }
 .site-logo {
 	float: left;
-	width: 45%;
+	width: 40%;
 }
 .navbar-logo {
 	display: block;
@@ -63,7 +63,7 @@ h1, h2 {
 }
 .navbar-logo img {
 	display: inline-block;
-	width: 125px;
+	width: 100px;
 }
 
 .inline-block-list {
@@ -77,14 +77,14 @@ h1, h2 {
 .inline-block-list li {
 	font-family: 'Raleway', sans-serif;
 	display: inline-block;
-	margin: 0 0 0 1.5em;
+	margin: 0 0 0 1.25em;
 	padding: 0;
 	vertical-align: top;
 }
 .site-nav.inline-block-list {
 	float: right;
 	display: block;
-	width: 50%;
+	width: 60%;
 	text-align: left;
     list-style-type: none;
     margin: 10px 0 0 0;
@@ -92,4 +92,4 @@ h1, h2 {
 }
 
 /*	BODY */
-.container { margin: 0 10%; }
+#site-body { margin: 0 10%; }
